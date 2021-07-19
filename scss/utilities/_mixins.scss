@@ -3,3 +3,7 @@
     background-color .2s ease-in-out,
     color .2s ease-in-out;
 }
+
+@mixin round-corners {
+  border-radius: 5px;
+}

@@ -10,7 +10,7 @@
 
   &-link {
     text-align: center;
-    border-radius: 5px;
+    @include round-corners;
     padding: 10px 0;
     display: block;
     width: 100%;
@@ -20,6 +20,21 @@
         color: $white;
         background-color: $color-primary;
       }
+
+  }
+
+}
+
+@media (min-width: $break) {
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-link {
+      flex-basis: 100px;
+    }
 
   }
 
