@@ -726,6 +726,14 @@ a {
   margin-right: auto;
 }
 
+@media (min-width: 768px) {
+  /* line 32, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
@@ -769,12 +777,5 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
-  /* line 6, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
-  .logo {
-    margin-left: initial;
-    margin-right: initial;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */
