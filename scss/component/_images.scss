@@ -12,9 +12,7 @@
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include center-block;
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
@@ -22,9 +20,7 @@
 }
 
 .img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include center-block;
 }
 
 @media (min-width: $break) {

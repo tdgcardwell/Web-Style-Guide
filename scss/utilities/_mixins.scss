@@ -7,3 +7,9 @@
 @mixin round-corners {
   border-radius: 5px;
 }
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
