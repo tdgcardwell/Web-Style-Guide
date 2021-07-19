@@ -438,52 +438,63 @@ a {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-/* line 16, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+@media (min-width: 768px) {
+  /* line 17, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 20, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+/* line 27, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 30, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .default:hover {
   background-color: #9cecfd;
 }
 
-/* line 25, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 36, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 28, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 39, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .error:hover {
   background-color: #f1b5b8;
 }
 
-/* line 34, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 45, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 37, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 48, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .info:hover {
   background-color: #bdafd9;
 }
 
-/* line 43, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 54, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 46, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 57, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .success:hover {
   background-color: #9ddfb0;
 }
 
-/* line 52, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 63, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* line 55, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 66, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .warning:hover {
   background-color: #feb4a2;
 }
@@ -760,14 +771,6 @@ a {
 /* ============================================= */
 @media (min-width: 768px) {
   /* line 6, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 9, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
-  .btn + .btn {
-    margin-left: 10px;
-  }
-  /* line 15, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;

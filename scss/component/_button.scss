@@ -13,6 +13,17 @@
   @include soft-change;
 }
 
+@media (min-width: $break) {
+  .btn {
+    padding: 10px 30px;
+
+    & + .btn {
+      margin-left: 10px;
+    }
+
+  }
+}
+
 .default {
   background-color: $color-secondary;
 
