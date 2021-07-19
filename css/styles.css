@@ -708,7 +708,7 @@ a {
   max-height: 100%;
 }
 
-/* line 12, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+/* line 10, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -719,7 +719,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 20, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+/* line 16, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -727,7 +727,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 26, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+  /* line 22, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
