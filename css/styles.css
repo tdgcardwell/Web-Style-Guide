@@ -372,27 +372,47 @@ template {
 }
 
 /* ============================================= */
-/*              Typography                       */
+/*              Base styles                      */
 /* ============================================= */
 /* line 5, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 11, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 15, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 23, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
-/* line 10, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 28, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
-/* line 15, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 33, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 20, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 38, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -401,26 +421,6 @@ template {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
-}
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-/* line 7, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_index.scss */
-* {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  box-sizing: border-box;
-}
-
-/* line 13, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_index.scss */
-p {
-  line-height: 1.45em;
-}
-
-/* line 17, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_index.scss */
-a {
-  text-decoration: none;
 }
 
 /* ============================================= */

@@ -1,19 +1,1 @@
 @import "normalize", "typography";
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-
-* {
-  font-family: 'Lato', sans-serif;
-  color: $text-base;
-  box-sizing: border-box;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
