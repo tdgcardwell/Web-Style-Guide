@@ -42,5 +42,5 @@ a {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px $outline;
-  border-radius: 5px;
+  @include round-corners;
 }
