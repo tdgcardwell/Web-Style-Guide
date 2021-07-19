@@ -10,7 +10,7 @@
 .img-frame {
   @include full-center;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid $grey;
 }
 
 .img-logo {
