@@ -7,7 +7,7 @@
   width: 100%;
   color: $white;
   border: none;
-  padding: 10px 0;
+  padding: $breathing-room 0;
   text-transform: uppercase;
   @include round-corners;
   @include soft-change;
@@ -15,10 +15,10 @@
 
 @media (min-width: $break) {
   .btn {
-    padding: 10px 30px;
+    padding: $breathing-room 30px;
 
     & + .btn {
-      margin-left: 10px;
+      margin-left: $breathing-room;
     }
 
   }

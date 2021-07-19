@@ -3,20 +3,20 @@
 /* ============================================= */
 
 .container {
-  padding: 0 10px;
+  padding: 0 $breathing-room;
 }
 
 .row {
   display: flex;
   flex-direction: column;
-  padding: 1em 10px;
+  padding: 1em $breathing-room;
 }
 
 [class^=col] {
-  margin-top: 10px;
+  margin-top: $breathing-room;
   flex-basis: 100%;
   min-height: 25px;
-  padding: 10px;
+  padding: $breathing-room;
   @include round-corners;
 }
 
@@ -94,7 +94,7 @@
     align-items: center;
 
     & + [class^=col] {
-      margin-left: 10px;
+      margin-left: $breathing-room;
     }
 
   }

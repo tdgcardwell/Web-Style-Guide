@@ -9,9 +9,9 @@
 .input{
   display: block;
   width: 94%;
-  margin: 10px auto 0;
+  margin: $breathing-room auto 0;
   border: none;
-  padding: 10px;
+  padding: $breathing-room;
   border-bottom: 5px $outline;
 }
 
