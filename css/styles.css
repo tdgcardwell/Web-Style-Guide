@@ -435,31 +435,57 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
 }
 
-/* line 15, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 16, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
 /* line 19, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 25, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 28, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 34, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 37, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 43, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+/* line 46, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 52, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 55, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
