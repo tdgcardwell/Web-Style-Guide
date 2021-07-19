@@ -25,10 +25,11 @@
   justify-content: center;
   margin-top: 0;
   align-items: center;
-}
 
-[class^=col] + [class^=col] {
-  margin-left: 10px;
+  & + [class^=col] {
+    margin-left: 10px;
+  }
+
 }
 
 .col-1 {
@@ -83,18 +84,20 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
 
-.nav-link {
-  flex-basis: 100px;
+  &-link {
+    flex-basis: 100px;
+  }
+
 }
 
 .btn {
   padding: 10px 30px;
-}
 
-.btn + .btn {
-  margin-left: 10px;
+  & + .btn {
+    margin-left: 10px;
+  }
+
 }
 
 .logo {

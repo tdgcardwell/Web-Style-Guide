@@ -665,59 +665,59 @@ a {
     margin-top: 0;
     align-items: center;
   }
-  /* line 30, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 29, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 34, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 35, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 38, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 39, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 42, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 43, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 46, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 47, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 50, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 51, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 54, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 55, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 58, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 59, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 62, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 63, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 66, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 67, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 70, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 71, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 74, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 75, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 78, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 79, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 82, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 83, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
@@ -727,15 +727,15 @@ a {
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 92, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 94, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 96, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 97, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 100, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
+  /* line 103, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_mediaqueries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
