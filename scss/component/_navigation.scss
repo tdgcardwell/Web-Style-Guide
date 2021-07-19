@@ -14,9 +14,7 @@
     padding: 10px 0;
     display: block;
     width: 100%;
-    transition:
-      background-color .2s ease-in-out,
-      color .2s ease-in-out;
+    @include soft-change;
 
       &:hover {
         color: $white;

@@ -1,0 +1,5 @@
+@mixin soft-change {
+  transition:
+    background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}

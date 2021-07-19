@@ -435,7 +435,7 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
 /* line 16, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_button.scss */
@@ -657,7 +657,7 @@ a {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-/* line 21, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_navigation.scss */
+/* line 19, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
