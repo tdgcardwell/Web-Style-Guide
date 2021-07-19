@@ -435,7 +435,7 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -708,7 +708,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+/* line 12, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -719,7 +719,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 22, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+/* line 20, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -727,7 +727,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 28, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
+  /* line 26, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_images.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
@@ -752,7 +752,7 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 /* line 19, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/component/_navigation.scss */
