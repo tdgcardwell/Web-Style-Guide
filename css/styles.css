@@ -372,7 +372,7 @@ template {
 }
 
 /* ============================================= */
-/*              Base styles                      */
+/*              Base styles & Typography         */
 /* ============================================= */
 /* line 5, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 * {
@@ -391,28 +391,25 @@ a {
   text-decoration: none;
 }
 
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 23, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 19, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
-/* line 28, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 24, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
-/* line 33, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 29, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 38, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
+/* line 34, ../../../../../Users/thomascardwell/Main Folder/Techdegree/Web-Style-Guide/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
